@@ -1,0 +1,79 @@
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500;700&display=swap');
+
+/* Variables */
+:root {
+  --prm: #001529;
+  --border: #5bf79c;
+  --scdr: #0bf37b;
+  --hover: #3EEB92;
+  --accent-text: #fff;
+
+}
+
+/* Reseteo de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cabin', sans-serif;
+}
+
+
+/* Logo de Yunex */
+.logo {
+  width: 160px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+/* Estilos de Leaflet */
+.leaflet-container {
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+
+/* Barra de navegación */
+.navigation {
+  background-color: var(--prm);
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-items {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.menu-button {
+  display: block;
+  background: linear-gradient(    90deg, var(--scdr), var(--hover));
+  color: var(--prm);
+  font-size: 1.1rem;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  background: var(--hover);
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.led-state {
+  width: 100px;
+  padding: 10px;
+}

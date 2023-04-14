@@ -1,0 +1,38 @@
+{
+  "lights":[
+    {
+      "id": "3186",
+      "shortName": "3186",
+      "operative": false,
+      "comunicative": true,
+      "controllerType": "C900",
+      "address": "AUT 36 Norte #12-16",
+      "ip": "192.168.0.12",
+      "coords": [4.698674,-74.1206844]
+    },
+    {
+      "id": "3187",
+      "shortName": "3187",
+      "operative": true,
+      "comunicative": true,
+      "controllerType": "C800",
+      "address": "KR 21 Norte #22-L",
+      "ip": "192.168.0.12",
+      "name": "TRD900",
+      "manufacturer": "SIEMENS",
+      "coords": [4.697974,-74.1249844]
+    },
+    {
+      "id": "3188",
+      "shortName": "3188",
+      "operative": true,
+      "comunicative": true,
+      "controllerType": "C800",
+      "address": "CL 71 Sur #22-L",
+      "ip": "192.168.0.12",
+      "name": "TRD900",
+      "manufacturer": "SIEMENS",
+      "coords": [4.697984,-74.1229844]
+    }
+  ]
+}
